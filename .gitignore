@@ -1,4 +1,6 @@
 # KiCad
+**/*.kicad_prl
+**/*.kicad_pro.lck
 **/.history/
 **/jlcpcb/
 **/*.zip
