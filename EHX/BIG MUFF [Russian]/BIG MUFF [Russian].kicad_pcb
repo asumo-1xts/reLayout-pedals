@@ -13639,6 +13639,18 @@
 			)
 		)
 	)
+	(gr_text "EHX - BIG MUFF [Russian]\n[ReLayouted] 2026/08/18"
+		(at 152.4 71.12 0)
+		(layer "B.SilkS")
+		(uuid "c65641b4-6b0d-47c0-95c4-512edfde6a1f")
+		(effects
+			(font
+				(size 1 1)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(segment
 		(start 121.6425 63.5)
 		(end 122 63.5)
@@ -13800,6 +13812,15 @@
 		(uuid "336edec9-9dae-43b8-8429-d2e44eb669b1")
 	)
 	(via
+		(at 158.75 83.185)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "353256d8-846e-4af4-a62d-490b0b548b49")
+	)
+	(via
 		(at 158.75 56.515)
 		(size 0.6)
 		(drill 0.3)
@@ -13863,6 +13884,15 @@
 		(uuid "47be0f51-137d-4543-b2c1-353e15c07f24")
 	)
 	(via
+		(at 151.13 99.695)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "487fee34-58e8-467c-811d-b603756bf21d")
+	)
+	(via
 		(at 138.43 95.25)
 		(size 0.6)
 		(drill 0.3)
@@ -13879,6 +13909,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "4f2ab92a-7ac7-4bba-b4e3-09e74ae9720d")
+	)
+	(via
+		(at 161.925 83.185)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "52f2c465-7f4c-4847-9d00-72362bd953fd")
 	)
 	(via
 		(at 142.24 96.52)
@@ -14016,6 +14055,15 @@
 		(uuid "8c1c29ca-6bb1-4837-84a2-573480ef95b6")
 	)
 	(via
+		(at 153.67 99.695)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "915b500e-3ffa-4d11-82ce-ebf375f13e3e")
+	)
+	(via
 		(at 142.24 73.025)
 		(size 0.6)
 		(drill 0.3)
@@ -14124,6 +14172,15 @@
 		(uuid "baa1a8b3-68d1-4a67-9ed2-7406b635f38d")
 	)
 	(via
+		(at 155.575 83.185)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "c1646b99-78b8-4528-a0ed-cf1e51c7cd6a")
+	)
+	(via
 		(at 142.24 71.12)
 		(size 0.6)
 		(drill 0.3)
@@ -14185,6 +14242,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "dc413649-f1ae-4989-8302-26fe6ca5cb5a")
+	)
+	(via
+		(at 148.59 99.695)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "dcd2e1d9-890e-450f-8521-73b5394e85b5")
 	)
 	(via
 		(at 167.005 93.345)
