@@ -4108,7 +4108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0337eddb-a09e-4aa1-ae0f-7001df842cea")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 260.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4169,7 +4169,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4187,7 +4187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e5c614-aeb8-49df-bbcd-585e2b52e884")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR016"
 			(at 101.6 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4248,7 +4248,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR023")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4266,7 +4266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0489e10f-c79b-476e-b36d-88b280376fa2")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 95.25 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,7 +4286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 91.44 58.1152 0)
 			(hide yes)
 			(show_name no)
@@ -4328,7 +4328,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4346,7 +4346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "068362d9-7c63-4cb6-acb6-a546620f47d2")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 76.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4407,7 +4407,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4425,7 +4425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b549c97-9bcb-419f-954f-f9fb8e979a43")
-		(property "Reference" "C11"
+		(property "Reference" "C3"
 			(at 78.74 150.2409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,7 +4489,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C11")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4508,7 +4508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10e7819b-2739-4759-a16d-8f3a2e735fd4")
-		(property "Reference" "RV1"
+		(property "Reference" "RV3"
 			(at 194.31 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,7 +4530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
 			(at 196.85 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4608,7 +4608,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "RV1")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -4626,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b2efcf-c66b-4182-8d54-61f7b3333c2c")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR04"
 			(at 44.45 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -4687,7 +4687,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4705,7 +4705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18b9e5a5-c702-4af1-a36a-6cfc2a2b3663")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 114.3 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,7 +4725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 110.49 75.2348 0)
 			(hide yes)
 			(show_name no)
@@ -4767,7 +4767,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4785,7 +4785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bd8e08d-740d-4981-936a-3e27b651c2c0")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 253.111 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4795,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "10u"
 			(at 253.111 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4805,7 +4805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 257.81 87.9348 0)
 			(hide yes)
 			(show_name no)
@@ -4847,7 +4847,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4865,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de1a4b8-ffcf-44d9-b1cc-6cbb3a0f0392")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 76.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4925,7 +4925,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5042,86 +5042,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 88.9 88.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2176229f-c47f-4d77-ab40-e71d9556a1a5")
-		(property "Reference" "C2"
-			(at 88.9 81.28 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 88.9 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 89.8652 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "de6ecd14-082b-439e-8904-a4bbacacd20a")
-		)
-		(pin "1"
-			(uuid "0ebe97ba-1537-4b93-a11c-22ca8af78d85")
-		)
-		(instances
-			(project "TS9"
-				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 107.95 69.85 0)
 		(unit 1)
@@ -5133,7 +5053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23058c0f-c0da-48a8-9304-717d738ae1ff")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5219,7 +5139,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5237,7 +5157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f3a289e-289f-410b-aad2-c8774192b13c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR021"
 			(at 190.5 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5297,7 +5217,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR010")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5315,7 +5235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31232f88-2841-46cd-b050-3e32361d83f4")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR020"
 			(at 139.7 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5375,7 +5295,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR08")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5393,7 +5313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3350ca31-022b-4b60-8aa5-2e7b5e57565a")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 129.54 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5415,7 +5335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4"
 			(at 132.3848 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5457,7 +5377,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5475,7 +5395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "368d6dc8-8f2c-45ef-abd8-baa727f374ea")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 107.95 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5495,7 +5415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 107.95 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -5537,7 +5457,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R5")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5555,7 +5475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ab38c58-5072-40e4-8cd0-56c07735384f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 209.55 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5615,7 +5535,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5633,7 +5553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47789e99-6998-432c-9483-fff990ba76ba")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5694,7 +5614,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5711,7 +5631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f5b792b-4fa2-4fb7-b0af-a6036d16011a")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 135.89 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5733,7 +5653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 135.128 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -5775,7 +5695,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5792,7 +5712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52cac493-8cc2-41ef-ab20-7fce578aec89")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 148.59 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5814,7 +5734,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 147.828 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -5856,7 +5776,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5874,7 +5794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f647bc3-020d-435f-9ad2-ef8fc0a9a81a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR018"
 			(at 133.35 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5935,7 +5855,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR09")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5953,7 +5873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60424407-93e2-4574-9c24-22da82787fb8")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR017"
 			(at 101.6 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6014,7 +5934,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR026")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6032,7 +5952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "608f24c7-2040-4aa1-82a2-60edb29bb610")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 38.1 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6093,7 +6013,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6110,7 +6030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62b41f12-2526-4d11-9eea-baa3da30df91")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 218.44 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6132,7 +6052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 217.678 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -6174,7 +6094,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6191,7 +6111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65af3b91-22b4-468a-a410-58d1d4f381d4")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 78.74 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6213,7 +6133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 77.978 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -6255,7 +6175,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6273,7 +6193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "679cf29b-6e58-4d6a-abbd-dede1c6dadc7")
-		(property "Reference" "R19"
+		(property "Reference" "R6"
 			(at 63.5 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6335,7 +6255,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R19")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6353,7 +6273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d06ec05-fde3-4f11-9301-bbd7b540a050")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 107.95 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6439,7 +6359,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6457,7 +6377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7506254b-0548-40e4-beba-3c7f512b733c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR02"
 			(at 38.1 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6517,7 +6437,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR015")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6535,7 +6455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e46436-5260-4015-823b-fdfd4115c055")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR014"
 			(at 101.6 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6596,7 +6516,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR027")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6614,7 +6534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9a63a8-9e35-49c7-92c1-88eae156fe17")
-		(property "Reference" "R15"
+		(property "Reference" "R19"
 			(at 241.3 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 241.3 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -6676,7 +6596,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R15")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6694,7 +6614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c67f7fa-50ca-4142-8675-c60938c2f5fc")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 209.55 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6714,7 +6634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4"
 			(at 205.74 83.5152 0)
 			(hide yes)
 			(show_name no)
@@ -6756,7 +6676,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6774,7 +6694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "801e5be9-aa3f-4583-b2c3-1991e616eb43")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR07"
 			(at 69.85 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6835,7 +6755,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR019")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8540f8cc-5722-4f49-a514-31bed6cee995")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 158.75 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,7 +6793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 158.75 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -6915,7 +6835,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6953,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
 			(at 162.56 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7103,6 +7023,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 88.9 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "898f40e0-79bf-49ad-89fc-05bf8e28c3f9")
+		(property "Reference" "C12"
+			(at 88.011 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 88.011 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 92.71 87.9348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 88.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd954740-b869-4dda-adff-a92f1c209071")
+		)
+		(pin "2"
+			(uuid "2e325e28-e4fd-465e-849b-811902e8d148")
+		)
+		(instances
+			(project "TS9"
+				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:NEUT")
 		(at 82.55 133.35 0)
 		(unit 1)
@@ -7114,7 +7114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f2711a6-c217-42a7-acdb-d06a39730b2e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR011"
 			(at 82.55 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7174,7 +7174,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR020")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7192,7 +7192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f916e6d-3334-4d17-8d6a-0fac4714ecc5")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 53.34 150.2409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7256,7 +7256,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7274,7 +7274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90715287-ae3c-4da4-b5e9-5ee79113b301")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 127 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,7 +7294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 127 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -7336,87 +7336,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 177.8 76.2 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9608868f-4a4a-4943-82d0-5c727fa81190")
-		(property "Reference" "C7"
-			(at 177.8 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 177.8 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 77.1652 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "da249aaf-d538-4241-b0ea-161928a9423c")
-		)
-		(pin "1"
-			(uuid "9c21850e-435e-471d-b2c9-262da84277e2")
-		)
-		(instances
-			(project "TS9"
-				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7434,7 +7354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98aebfa8-f381-434f-9417-687de0319390")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 57.15 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7454,7 +7374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 57.15 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7416,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7534,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 40.64 83.5152 0)
 			(hide yes)
 			(show_name no)
@@ -7614,7 +7534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
 			(at 111.76 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7692,7 +7612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dccaf07-3d75-4ec8-bb9f-2db64e7526ff")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 82.55 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7712,7 +7632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 82.55 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -7754,7 +7674,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7882,7 +7802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9efbcd0c-7d97-4ef9-a014-87b0df29970d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 57.15 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7942,7 +7862,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7959,7 +7879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1155775-1fb5-40ff-83e9-bf4266a1aad5")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 149.86 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7981,7 +7901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.3mm_W5.7mm_P7.50mm_MKS4"
 			(at 147.0152 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8023,7 +7943,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8041,7 +7961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34d9a7c-36b4-4de1-92b6-046d02bbb79e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR03"
 			(at 38.1 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8102,7 +8022,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR016")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8119,7 +8039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6449b11-a82c-49a2-b8a1-c153525c8609")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 97.79 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8141,7 +8061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 97.028 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -8183,7 +8103,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8287,7 +8207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aebdfbb0-8147-4fd7-80e4-2814bfa91eeb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR012"
 			(at 82.55 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8348,7 +8268,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR021")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8366,7 +8286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b02f085d-bc9b-4555-b850-4425701facc2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8426,7 +8346,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8527,7 +8447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ee3135-d78e-494f-a18c-8e4cbd6242d6")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR06"
 			(at 57.15 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8588,7 +8508,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR018")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8606,7 +8526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3450e79-6743-4330-b989-0869b888669d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR024"
 			(at 228.6 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8667,7 +8587,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR013")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8684,7 +8604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b78080e9-aa68-4c62-9368-44f16f81a552")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 66.04 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8706,7 +8626,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 65.278 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -8748,7 +8668,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b80193be-b066-40ab-ae07-311a121464e5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR023"
 			(at 228.6 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8826,7 +8746,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR012")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8844,7 +8764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcb1b6cf-2844-44a8-87a6-4f9356cd82c0")
-		(property "Reference" "R20"
+		(property "Reference" "R7"
 			(at 67.31 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8908,7 +8828,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R20")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8926,7 +8846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd276963-d309-418b-ae2e-3580fee6d6ec")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 70.1674 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -9003,7 +8923,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9021,7 +8941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf84c8b6-ca12-41f0-84ef-37c92f5332b7")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 35.56 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9043,7 +8963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 36.322 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -9085,7 +9005,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9103,7 +9023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc23199e-69ae-44ca-944f-a5e035b166b5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR015"
 			(at 111.76 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9164,7 +9084,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR024")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9182,7 +9102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dab99ded-6835-4209-938f-e183583f75f4")
-		(property "Reference" "RV3"
+		(property "Reference" "RV1"
 			(at 120.65 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9202,7 +9122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
 			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9280,7 +9200,87 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "RV3")
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 177.8 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcb22662-dde7-4cf2-83d5-d6f3860cc6b0")
+		(property "Reference" "C13"
+			(at 176.911 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 176.911 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 181.61 75.2348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 177.8 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9a77094-962b-4a58-a255-fcbc00ab4811")
+		)
+		(pin "2"
+			(uuid "67d125f2-cb95-4d5f-a2a1-3ed8210e33f4")
+		)
+		(instances
+			(project "TS9"
+				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9298,7 +9298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e13b5ed4-35e2-4d62-b8a7-90d7c3e5f16f")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 190.5 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +9318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 190.5 77.978 90)
 			(hide yes)
 			(show_name no)
@@ -9360,7 +9360,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9378,7 +9378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4fb7e7f-dfbf-4285-8f73-568f4cf46fbe")
-		(property "Reference" "R17"
+		(property "Reference" "R2"
 			(at 45.72 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9440,7 +9440,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R17")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8cbdaf6-94cf-4cfa-8aa6-f77c5488498b")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 35.56 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9544,7 +9544,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9561,7 +9561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec6fdc70-efe2-4919-a0fc-4d09f0e42737")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 231.14 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9583,7 +9583,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 230.378 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -9625,7 +9625,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9665,7 +9665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
 			(at 41.91 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9743,7 +9743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef486264-76d7-4338-8a92-d483488ee916")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 76.2 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9803,7 +9803,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9840,7 +9840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Vertical"
 			(at 146.05 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9936,7 +9936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa1dee57-4587-40a5-b6fb-71b913d6feba")
-		(property "Reference" "R18"
+		(property "Reference" "R4"
 			(at 57.15 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9998,7 +9998,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R18")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10015,7 +10015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd0f58aa-9ca2-4388-b9ea-8729a5ee613e")
-		(property "Reference" "R16"
+		(property "Reference" "R20"
 			(at 262.89 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,7 +10037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 262.128 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -10079,7 +10079,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "R16")
+					(reference "R20")
 					(unit 1)
 				)
 			)
