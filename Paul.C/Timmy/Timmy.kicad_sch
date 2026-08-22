@@ -2684,16 +2684,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 110.49 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "030d3163-8e00-431e-a370-b6593864f665")
-	)
-	(wire
-		(pts
 			(xy 80.01 50.8) (xy 82.55 50.8)
 		)
 		(stroke
@@ -2851,16 +2841,6 @@
 			(type default)
 		)
 		(uuid "223d11ff-d6dd-4754-be6d-30ecad584a31")
-	)
-	(wire
-		(pts
-			(xy 107.95 66.04) (xy 107.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aee2c54-80a4-4ae6-85b7-db240a6b7458")
 	)
 	(wire
 		(pts
@@ -3244,16 +3224,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 95.25) (xy 44.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849e0e09-808e-403e-a72e-6ae9bcc21f77")
-	)
-	(wire
-		(pts
 			(xy 156.21 24.13) (xy 161.29 24.13)
 		)
 		(stroke
@@ -3291,6 +3261,16 @@
 			(type default)
 		)
 		(uuid "8d5b5714-59bc-4d17-948e-dd3ec728d54c")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f3fec2-5d5b-42c9-b237-869407976286")
 	)
 	(wire
 		(pts
@@ -3701,6 +3681,16 @@
 			(type default)
 		)
 		(uuid "f79cd3c3-46f6-4aec-9cb9-c8de80924d97")
+	)
+	(wire
+		(pts
+			(xy 44.45 92.71) (xy 50.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb714caa-d570-4292-a47d-a9c24143f6b2")
 	)
 	(wire
 		(pts
@@ -4563,7 +4553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26765772-9fc4-4a27-9a9b-a5f97e6967d9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 171.45 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4624,7 +4614,7 @@
 		(instances
 			(project "Timmy"
 				(path "/ca2fbd8c-12cd-4803-bf08-d3c56d1caaa4"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4710,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "power:NEUT")
-		(at 107.95 66.04 180)
+		(at 107.95 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4718,10 +4708,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3fa8d491-0713-4dc6-910c-a44f45c545d7")
 		(property "Reference" "#PWR05"
-			(at 107.95 62.23 0)
+			(at 107.95 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,17 +4721,18 @@
 			)
 		)
 		(property "Value" "NEUT"
-			(at 107.95 71.12 0)
+			(at 105.41 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 66.04 0)
+			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +4743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 66.04 0)
+			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"NEUT\""
-			(at 107.95 66.04 0)
+			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4985,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "507b873e-b1de-4ef6-b3c0-615cba8fc00e")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 182.245 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,7 +5034,7 @@
 		(instances
 			(project "Timmy"
 				(path "/ca2fbd8c-12cd-4803-bf08-d3c56d1caaa4"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5229,7 +5219,7 @@
 	)
 	(symbol
 		(lib_id "power:NEUT")
-		(at 44.45 95.25 180)
+		(at 50.8 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5237,10 +5227,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "60182d87-eacc-4e73-91fe-23f717b4ddf5")
 		(property "Reference" "#PWR04"
-			(at 44.45 91.44 0)
+			(at 50.8 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5251,17 +5240,18 @@
 			)
 		)
 		(property "Value" "NEUT"
-			(at 44.45 100.33 0)
+			(at 48.26 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 95.25 0)
+			(at 50.8 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,7 +5262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 95.25 0)
+			(at 50.8 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5283,7 +5273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"NEUT\""
-			(at 44.45 95.25 0)
+			(at 50.8 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,7 +7414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc3f0ed-cb07-45e4-8c99-895457180299")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7485,7 +7475,7 @@
 		(instances
 			(project "Timmy"
 				(path "/ca2fbd8c-12cd-4803-bf08-d3c56d1caaa4"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7841,7 +7831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6c1fd5e-fbdd-4786-b625-4058e7ae440c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 171.45 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7902,7 +7892,7 @@
 		(instances
 			(project "Timmy"
 				(path "/ca2fbd8c-12cd-4803-bf08-d3c56d1caaa4"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8371,7 +8361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f41c2798-23c2-44fc-9736-6713f1c3ddee")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8432,7 +8422,7 @@
 		(instances
 			(project "Timmy"
 				(path "/ca2fbd8c-12cd-4803-bf08-d3c56d1caaa4"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

@@ -3972,7 +3972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f14696e-b0e0-493f-bc9b-b2763b04a148")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 260.35 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4033,7 +4033,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4211,7 +4211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13c97bdf-d96e-42b0-b0ca-7f5d9eb489b9")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 44.45 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +4275,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "222702b2-38c2-4740-9e48-671f6e0df7ed")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 44.45 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4816,7 +4816,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5074,7 +5074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc0dbfd-0410-4152-9a49-56ff864d93a2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 203.2 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5135,7 +5135,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5314,7 +5314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f23c276-90b7-40d5-8745-9898f9a0d4dc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 69.85 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5375,7 +5375,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5476,7 +5476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cd729a4-b216-4983-9cf1-45925295db88")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 42.545 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +5535,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5633,7 +5633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41d5e63d-0620-4217-a442-b9ecd0598365")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 222.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5693,7 +5693,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5903,7 +5903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ed3a77d-0a3a-42e8-9670-de2d9c4f11e8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 38.1 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5964,7 +5964,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5982,7 +5982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b106f0-ce55-40ba-aaa2-fcfcd831814c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 76.2 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6043,7 +6043,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6143,7 +6143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55fe1bc0-e61d-4ced-8c0b-ccde58c0e084")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 203.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6204,7 +6204,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6302,7 +6302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a696f9c-675d-4e8f-b6a4-9e68679f7e6e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 234.95 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6363,7 +6363,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6622,7 +6622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "629cde6d-7325-4f09-b2fb-e149fd955d89")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 82.55 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6683,7 +6683,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6701,7 +6701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6440d790-df90-489d-a75e-59a47ed756c9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 165.1 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6762,7 +6762,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6780,7 +6780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a49ee7c-c224-4c1b-9ed2-25cf1867606e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6841,7 +6841,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6963,7 +6963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74090e7a-2092-44ec-b35f-6b7dd438eb01")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 127 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +7024,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7669,7 +7669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fa7b57c-b00f-4e1d-9a44-82df8e38d178")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 95.25 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7730,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7830,7 +7830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a40a599b-305f-426c-899a-e2429f39cff2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 177.8 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7890,7 +7890,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8381,7 +8381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2730b32-6470-4c05-841d-f9521d8c25f2")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 234.95 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8441,7 +8441,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8805,7 +8805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce721ac1-d646-4aee-82aa-9d2cd942e984")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 63.5 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8865,7 +8865,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8883,7 +8883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0c0e429-05e9-47b0-a030-9cf82f7b5d9e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 222.25 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8944,7 +8944,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8962,7 +8962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3091e78-4bdb-45cf-8107-7cc6c577f635")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 63.5 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9023,7 +9023,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9521,7 +9521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efcc4522-499f-4e77-a121-cdf366b99757")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 139.7 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9581,7 +9581,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9789,7 +9789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f473f32a-9fd7-4e83-b1c7-0235ef4e2f65")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 177.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9850,7 +9850,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9963,7 +9963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1f8750-ed9b-404d-b9df-577b43b93a89")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 82.55 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10023,7 +10023,7 @@
 		(instances
 			(project "BIG MUFF [Triangle]"
 				(path "/1184b22c-7f25-432e-b63b-19d9e238a94b"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

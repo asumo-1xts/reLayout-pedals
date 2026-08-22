@@ -6118,6 +6118,12 @@
 		(path "/b3a46928-5ea9-49ee-aaf2-b056ea9fbf29")
 		(sheetname "/")
 		(sheetfile "BIG MUFF [Russian].kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6468,7 +6474,7 @@
 		(at 138.435 57.15 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10598,7 +10604,7 @@
 		(at 138.435 60.325 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11463,7 +11469,7 @@
 		(at 167.64 67.31)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -12404,6 +12410,12 @@
 		(path "/1d2038bf-582f-410a-8780-1369f1789611")
 		(sheetname "/")
 		(sheetfile "BIG MUFF [Russian].kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line

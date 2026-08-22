@@ -7034,7 +7034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "898f40e0-79bf-49ad-89fc-05bf8e28c3f9")
-		(property "Reference" "C12"
+		(property "Reference" "C4"
 			(at 88.011 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7096,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9218,7 +9218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcb22662-dde7-4cf2-83d5-d6f3860cc6b0")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 176.911 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9280,7 +9280,7 @@
 		(instances
 			(project "TS9"
 				(path "/7a474f6e-d8dd-42e4-9321-d1e94f717f3f"
-					(reference "C13")
+					(reference "C9")
 					(unit 1)
 				)
 			)

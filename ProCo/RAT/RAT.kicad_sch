@@ -3301,6 +3301,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 82.55) (xy 44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1cce32-7dda-4d7e-bf41-70ccc1407039")
+	)
+	(wire
+		(pts
 			(xy 76.2 107.95) (xy 76.2 114.3)
 		)
 		(stroke
@@ -3538,6 +3548,16 @@
 			(type default)
 		)
 		(uuid "8274b12d-ff5d-4755-bff2-c274a85dd1ff")
+	)
+	(wire
+		(pts
+			(xy 44.45 82.55) (xy 44.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846d9c47-1ed8-406b-afc0-fff7fa18f0d8")
 	)
 	(wire
 		(pts
@@ -3808,16 +3828,6 @@
 			(type default)
 		)
 		(uuid "c656855a-dca5-4900-8d14-3c909ae69a85")
-	)
-	(wire
-		(pts
-			(xy 44.45 80.01) (xy 44.45 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c725472f-4468-40dc-93c7-54c7b279c6c2")
 	)
 	(wire
 		(pts
@@ -4656,7 +4666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225884cf-9478-4b63-b81d-c992dc7aae35")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 177.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4717,7 +4727,7 @@
 		(instances
 			(project "RAT"
 				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5055,7 +5065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a74f3e1-0cf6-4220-b1f2-b6b38bf9ea5e")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 38.1 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5115,7 +5125,7 @@
 		(instances
 			(project "RAT"
 				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5559,7 +5569,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 31.75 76.2 180)
+		(at 31.75 76.2 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5567,10 +5578,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3df2b5a8-7983-45e1-a28f-967e2c56c934")
 		(property "Reference" "R1"
-			(at 34.29 74.9299 0)
+			(at 29.21 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5580,8 +5590,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2M2"
-			(at 34.29 77.4699 0)
+		(property "Value" "1M"
+			(at 29.21 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5592,7 +5602,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 33.528 76.2 90)
+			(at 29.972 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6677,7 +6687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63a2dc1a-b6ec-4355-afb4-7c068cdce38e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 171.45 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6738,7 +6748,7 @@
 		(instances
 			(project "RAT"
 				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7271,7 +7281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a17bf72-a322-4e6b-828f-f0f6744ca99d")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 46.99 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7282,7 +7292,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2M2"
+		(property "Value" "1M"
 			(at 46.99 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,7 +7345,7 @@
 		(instances
 			(project "RAT"
 				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8119,6 +8129,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:NEUT")
+		(at 38.1 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acef7047-1698-439d-be2c-d648a862fb03")
+		(property "Reference" "#PWR05"
+			(at 38.1 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NEUT"
+			(at 35.56 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"NEUT\""
+			(at 38.1 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c60a62ff-675c-4fb7-9708-b65a56640c0f")
+		)
+		(instances
+			(project "RAT"
+				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 31.75 127 0)
 		(unit 1)
@@ -8130,7 +8218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "affd734d-b53e-4930-a08c-515dc17c21b9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 31.75 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8191,7 +8279,7 @@
 		(instances
 			(project "RAT"
 				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8741,7 +8829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbd59852-3d95-4158-bd81-2c0d37218dbc")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR023"
 			(at 171.45 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8802,85 +8890,7 @@
 		(instances
 			(project "RAT"
 				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:NEUT")
-		(at 44.45 82.55 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7a3acdf-d260-46b3-be8d-d0a914ade31d")
-		(property "Reference" "#PWR05"
-			(at 44.45 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NEUT"
-			(at 44.45 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"NEUT\""
-			(at 44.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0859173-3328-40be-be83-a78c4f0d3d81")
-		)
-		(instances
-			(project "RAT"
-				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "#PWR05")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8978,7 +8988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddebdfa0-2871-4a92-bd0d-5e86e8467cf5")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 41.91 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9042,7 +9052,7 @@
 		(instances
 			(project "RAT"
 				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9634,7 +9644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fed758a4-499d-4f66-b1cc-c0b545f434b2")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 44.45 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9696,7 +9706,7 @@
 		(instances
 			(project "RAT"
 				(path "/938e6a14-1226-49e6-a6eb-20951bcd3e89"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)

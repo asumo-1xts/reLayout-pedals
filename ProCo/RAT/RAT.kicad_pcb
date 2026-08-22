@@ -109,7 +109,7 @@
 				)
 			)
 		)
-		(property "Value" "2M2"
+		(property "Value" "1M"
 			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "fc1e2ee2-16c7-43a6-878f-1c27388a0c01")
@@ -7904,7 +7904,7 @@
 		(at 105.43 51.7625 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 3.81 -2.37 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -10176,6 +10176,12 @@
 		(path "/579fbd8d-3693-4def-93ad-8850d1ce4de8")
 		(sheetname "/")
 		(sheetfile "RAT.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11658,7 +11664,7 @@
 		(at 102.255 70.8125 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 3.81 -2.37 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11670,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Value" "2M2"
+		(property "Value" "1M"
 			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "0a059e5d-5fc9-45b0-bad5-462e8c167939")
@@ -11966,6 +11972,12 @@
 		(path "/64ad52e7-6119-4fdf-8970-793520fc7dae")
 		(sheetname "/")
 		(sheetfile "RAT.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12266,7 +12278,7 @@
 		(at 93.365 42.8725 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 3.81 -2.37 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -12499,7 +12511,7 @@
 				)
 			)
 		)
-		(property "Value" "4001"
+		(property "Value" "1N4001"
 			(at 4.445 0 0)
 			(layer "F.SilkS")
 			(uuid "6d1a4992-5350-48e4-a42e-29b34faa3c57")
@@ -15881,6 +15893,12 @@
 		(path "/98d12c4a-008c-4985-826b-1473ca757085")
 		(sheetname "/")
 		(sheetfile "RAT.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole circle
@@ -16043,6 +16061,12 @@
 		(path "/c3303ec2-e92e-4ea3-aa60-46843fa79579")
 		(sheetname "/")
 		(sheetfile "RAT.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole circle
@@ -16438,6 +16462,12 @@
 		(path "/341f28b7-e02b-49b5-b4e9-78410f6ae997")
 		(sheetname "/")
 		(sheetfile "RAT.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17647,9 +17677,9 @@
 		(uuid "ae003599-e61f-4f5d-88b9-78ee4aaa6dd5")
 	)
 	(arc
-		(start 93.0675 71.15)
+		(start 92.3925 71.15)
 		(mid 92.73 71.010202)
-		(end 92.3925 71.15)
+		(end 93.0675 71.15)
 		(width 0.5)
 		(layer "B.Cu")
 		(net "/INPUT")
@@ -17757,8 +17787,8 @@
 		(uuid "11ec405f-dbf4-42b8-b6da-a59bd88f58cd")
 	)
 	(segment
-		(start 85.745 46.0475)
-		(end 83.215234 48.577265)
+		(start 83.215234 48.577265)
+		(end 85.745 46.0475)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "Net-(U1--)")
@@ -17797,9 +17827,9 @@
 		(uuid "e15016f5-69c5-44c2-a72c-d7ee383097be")
 	)
 	(arc
-		(start 81.6575 49.2225)
+		(start 83.215234 48.577265)
 		(mid 82.500539 49.054808)
-		(end 83.215234 48.577265)
+		(end 81.6575 49.2225)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "Net-(U1--)")
@@ -17842,9 +17872,9 @@
 		(uuid "684a8ff9-1cd8-4c9b-ba4e-630d7e9e5248")
 	)
 	(arc
-		(start 81.390234 49.867734)
+		(start 81.6575 49.2225)
 		(mid 81.308301 49.455826)
-		(end 81.6575 49.2225)
+		(end 81.390234 49.867734)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "Net-(U1--)")
@@ -18050,8 +18080,8 @@
 		(uuid "b63d7190-4034-49a5-9ee3-42a347a74425")
 	)
 	(segment
-		(start 106.921837 55.603011)
-		(end 106.478162 56.046686)
+		(start 106.478162 56.046686)
+		(end 106.921837 55.603011)
 		(width 1)
 		(layer "F.Cu")
 		(net "VDD")
@@ -18066,8 +18096,8 @@
 		(uuid "df9cddb8-b45e-4800-bb27-9e85e7adf7bd")
 	)
 	(segment
-		(start 105.665 56.859848)
-		(end 106.478162 56.046686)
+		(start 106.478162 56.046686)
+		(end 105.665 56.859848)
 		(width 1)
 		(layer "F.Cu")
 		(net "VDD")
@@ -18548,9 +18578,9 @@
 		(uuid "a1eca44e-ad51-4cd9-9d04-dec87904cf06")
 	)
 	(arc
-		(start 124.039944 60.745056)
+		(start 123.825 61.263976)
 		(mid 123.880862 60.983138)
-		(end 123.825 61.263976)
+		(end 124.039944 60.745056)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "Net-(C12-Pad2)")
@@ -18673,9 +18703,9 @@
 		(uuid "c6a2c8d8-ccb2-4523-98f2-1200ec27bebf")
 	)
 	(arc
-		(start 117.495 51.390525)
+		(start 118.13 49.8575)
 		(mid 117.660031 50.560857)
-		(end 118.13 49.8575)
+		(end 117.495 51.390525)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/OUTPUT")
