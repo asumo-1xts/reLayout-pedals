@@ -5082,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 130.81 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5926,7 +5926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 137.16 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7523,7 +7523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W10.16mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
