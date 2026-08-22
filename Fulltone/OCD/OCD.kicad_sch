@@ -4649,7 +4649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38296e09-a7dc-417f-a9df-e8aac56ee993")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 127 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4710,7 +4710,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5410,7 +5410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b8eaf19-bd11-4846-ae4c-c5f49b272529")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 137.16 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5471,7 +5471,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5768,7 +5768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877bf921-688f-4075-9767-84b0eadf0ebd")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5829,7 +5829,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6678,7 +6678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab079647-074f-47da-933c-a9589a7af13b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 125.73 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6739,7 +6739,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7320,7 +7320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9373f53-1a33-4068-b543-acf20ac22333")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7381,7 +7381,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7400,7 +7400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca7bdff3-d400-45fe-aaa0-c3d2342f1351")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 139.7 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,7 +7464,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7910,7 +7910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a0e0dc-4b2f-469f-ab23-57786ff7d006")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 138.43 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7974,7 +7974,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8082,7 +8082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "102"
+		(property "Value" "473"
 			(at 161.29 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
