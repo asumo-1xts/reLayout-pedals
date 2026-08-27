@@ -11900,8 +11900,8 @@
 				)
 			)
 		)
-		(property "Value" "470p"
-			(at 2.5 0 180)
+		(property "Value" "471"
+			(at 2.5 0 270)
 			(layer "F.SilkS")
 			(uuid "948f8991-0d55-4d9f-aa74-1d3e2316a222")
 			(effects
