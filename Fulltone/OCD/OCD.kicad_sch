@@ -3964,7 +3964,7 @@
 		(uuid "5fe6d989-3226-4d53-bf54-df409808b9c6")
 	)
 	(label "OUTPUT"
-		(at 132.08 77.47 180)
+		(at 133.35 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4649,7 +4649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38296e09-a7dc-417f-a9df-e8aac56ee993")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 127 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4710,7 +4710,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6668,7 +6668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 80.01 270)
+		(at 133.35 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6678,18 +6678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab079647-074f-47da-933c-a9589a7af13b")
-		(property "Reference" "#PWR012"
-			(at 125.73 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
+		(property "Reference" "#PWR013"
 			(at 127 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6700,8 +6689,19 @@
 				)
 			)
 		)
+		(property "Value" "GND"
+			(at 128.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 132.08 80.01 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6712,7 +6712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 80.01 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 80.01 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,7 +6739,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7400,7 +7400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca7bdff3-d400-45fe-aaa0-c3d2342f1351")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 139.7 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,7 +7464,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7899,7 +7899,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 137.16 77.47 0)
+		(at 138.43 77.47 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7910,8 +7910,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a0e0dc-4b2f-469f-ab23-57786ff7d006")
-		(property "Reference" "J1"
-			(at 138.43 77.4699 0)
+		(property "Reference" "J2"
+			(at 139.7 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7922,7 +7922,7 @@
 			)
 		)
 		(property "Value" "OUTPUT"
-			(at 138.43 80.0099 0)
+			(at 139.7 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7933,7 +7933,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 137.16 77.47 0)
+			(at 138.43 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,7 +7944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 77.47 0)
+			(at 138.43 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7955,7 +7955,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 137.16 77.47 0)
+			(at 138.43 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7974,7 +7974,7 @@
 		(instances
 			(project "OCD"
 				(path "/ed285c7d-4c7b-4eec-b4aa-2657f85b1869"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
